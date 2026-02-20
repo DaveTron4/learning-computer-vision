@@ -6,7 +6,7 @@ import cv2
 script_dir = os.path.dirname(os.path.abspath(__file__))
 
 # Load a pre-trained YOLOv8 model
-model = YOLO('./weights/yolov8n.pt')
+model = YOLO('./object-detection-yolo/weights/yolov8n.pt')
 
 # Construct the absolute path to the image
 image_path = os.path.join(script_dir, 'images', '2.jpg')
