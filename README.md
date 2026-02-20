@@ -14,8 +14,23 @@ This repository serves as a personal journey into the world of **Computer Vision
 
 | Project Name | Description | Tech Stack | Status |
 | :--- | :--- | :--- | :--- |
-| [🖼️ Image to Sketch](./img_to_sketch/) | Converts standard RGB images into pencil sketches using Gaussian blurring and dodging techniques. | ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white) | ✅ Complete |
-| [🔍 YOLO Object Detection](./object-detection-yolo/) | Real-time object detection using YOLOv8. Focuses on model inference and handling bounding boxes. | ![Ultralytics](https://img.shields.io/badge/Ultralytics-blueviolet?style=flat-square) ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) | 🚧 In Progress |
+| [🖼️ Image to Sketch](./img-to-sketch/) | Converts standard RGB images into pencil sketches using Gaussian blurring and dodging techniques. | ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white) | ✅ Complete |
+| [🔍 YOLO Object Detection](./object-detection-yolo/) | Real-time object detection using YOLOv8. Includes basic inference and webcam integration. | ![Ultralytics](https://img.shields.io/badge/Ultralytics-blueviolet?style=flat-square) ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) ![cvzone](https://img.shields.io/badge/cvzone-blue?style=flat-square) | 🚧 In Progress |
+
+---
+
+## 📂 Project Structure
+
+```text
+.
+├── img-to-sketch/            # Image to pencil sketch converter
+│   └── main.py
+├── object-detection-yolo/    # YOLOv8 implementation
+│   ├── running-yolo/         # Basic image inference
+│   ├── weights/              # Pre-trained YOLO weights
+│   └── yolo-with-cam/        # Real-time webcam detection
+└── requirements.txt
+```
 
 ---
 
